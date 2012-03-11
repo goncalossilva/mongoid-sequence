@@ -57,5 +57,6 @@ Just add it to your projects' `Gemfile`:
 gem "mongoid-sequence"
 ```
 
+<hr/>
 
 Copyright © 2010 Gonçalo Silva, released under the MIT license
