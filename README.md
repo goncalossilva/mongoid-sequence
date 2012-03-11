@@ -45,6 +45,10 @@ s2 = Sequenced.create
 s2.id #=> 2 # and so on
 ```
 
+## Consistency
+
+Mongoid::Sequence uses the atomic [findAndModify](http://www.mongodb.org/display/DOCS/findAndModify+Command) command, so you shouldn't have to worry about the sequence's consistency.
+
 ## Installation
 
 Just add it to your projects' `Gemfile`:
