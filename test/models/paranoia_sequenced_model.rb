@@ -1,4 +1,4 @@
-class ParanoidSequencedModel
+class ParanoiaSequencedModel
   include Mongoid::Document
   include Mongoid::Paranoia
   include Mongoid::Sequence

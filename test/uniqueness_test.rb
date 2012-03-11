@@ -1,3 +1,5 @@
+require "test_helper"
+
 class UniquenessTest < BaseTest
   def test_single_sequence_uniqueness
     n = 200
