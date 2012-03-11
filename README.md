@@ -1,6 +1,6 @@
 # Mongoid Sequence
 
-Mongoid Sequence allows you to specify fields to behave like a sequence number (exactly like the id column in conventional SQL flavours).
+Mongoid Sequence allows you to specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).
 
 ## Credits
 

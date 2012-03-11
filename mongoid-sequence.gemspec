@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors       = ["Gonçalo Silva"]
   s.email         = ["goncalossilva@gmail.com"]
   s.homepage      = "https://github.com/goncalossilva/mongoid-sequence"
-  s.summary       = "TODO: summary"
-  s.description   = "TODO: description"
+  s.summary       = 'Specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).'
+  s.description   = 'Mongoid::Sequence gives you the ability to specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).'
 
   s.add_dependency("mongoid", "~> 2.0")
   s.add_dependency("activesupport", "~> 3.1")
