@@ -11,12 +11,10 @@ end
 
 Dir["#{File.dirname(__FILE__)}/models/*.rb"].each { |f| require f }
 
-def teardown_db
-  Mongoid.master.collections.select {|c| c.name !~ /system/ }.each(&:remove)
-end
-
 class BaseTest < Test::Unit::TestCase
+  def test_default; end # Avoid "No tests were specified." on 1.8.7
+
   def teardown
-    teardown_db
+    Mongoid.master.collections.select {|c| c.name !~ /system/ }.each(&:remove)
   end
 end
