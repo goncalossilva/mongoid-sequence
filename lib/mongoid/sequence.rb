@@ -28,7 +28,7 @@ module Mongoid
                                                   :upsert => true)
 
         self[field] = next_sequence["seq"]
-      end
+      end if self.class.sequence_fields
     end
   end
 end
