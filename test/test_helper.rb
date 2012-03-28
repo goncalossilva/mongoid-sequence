@@ -2,7 +2,7 @@ require "bundler/setup"
 require "test/unit"
 require "mongoid"
 
-require File.expand_path("../../lib/mongoid/sequence", __FILE__)
+require File.expand_path("../../lib/mongoid-sequence", __FILE__)
 
 Mongoid.configure do |config|
   name = "mongoid_sequence_test"

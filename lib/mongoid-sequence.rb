@@ -1,5 +1,4 @@
-# encoding: utf-8
-
+require "mongoid-sequence/version"
 require "active_support/concern"
 
 module Mongoid

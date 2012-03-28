@@ -1,5 +1,5 @@
 module Mongoid
   module Sequence
-    VERSION = "0.0.3"
+    VERSION = "0.1"
   end
 end
